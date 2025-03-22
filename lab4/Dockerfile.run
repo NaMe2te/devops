@@ -1,0 +1,12 @@
+FROM system AS run
+
+ARG APP_PORT
+
+ENV PORT=${APP_PORT}
+
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+USER appuser
+
+COPY --from=build /app .
+
+CMD ["npm", "run", "start"]

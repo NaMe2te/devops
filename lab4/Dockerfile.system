@@ -1,0 +1,3 @@
+FROM node:alpine AS system
+
+RUN apk add --no-cache bash
