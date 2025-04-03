@@ -4,9 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-		"build": "npm install express --save && echo \"Dependencies installed\""
+		"build": "echo \"No build step specified\""
   },
-  "author": "Shishkin Vladislav",
+  "author": "Dana Woodman <dana@danawoodman.com> (http://danawoodman.com/)",
   "license": "ISC"
 }
