@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lWOBbDCmXAg=",
+  "dgSpecHash": "iyDtnhz6LQA=",
   "success": true,
-  "projectFilePath": "C:\\work\\unik\\devops\\lab2\\devopsapp\\devopsapp\\devopsapp.csproj",
+  "projectFilePath": "C:\\work\\unik\\devops\\lab23\\devopsapp\\devopsapp\\devopsapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HONOR\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\HONOR\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

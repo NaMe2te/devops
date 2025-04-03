@@ -3027,11 +3027,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\work\\unik\\devops\\lab2\\devopsapp\\devopsapp\\devopsapp.csproj",
+      "projectUniqueName": "C:\\work\\unik\\devops\\lab23\\devopsapp\\devopsapp\\devopsapp.csproj",
       "projectName": "devopsapp",
-      "projectPath": "C:\\work\\unik\\devops\\lab2\\devopsapp\\devopsapp\\devopsapp.csproj",
+      "projectPath": "C:\\work\\unik\\devops\\lab23\\devopsapp\\devopsapp\\devopsapp.csproj",
       "packagesPath": "C:\\Users\\HONOR\\.nuget\\packages\\",
-      "outputPath": "C:\\work\\unik\\devops\\lab2\\devopsapp\\devopsapp\\obj\\",
+      "outputPath": "C:\\work\\unik\\devops\\lab23\\devopsapp\\devopsapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HONOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3060,7 +3060,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {

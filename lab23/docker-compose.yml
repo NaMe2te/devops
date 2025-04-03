@@ -7,9 +7,9 @@ services:
       dockerfile: Dockerfile
     container_name: myapp
     ports:
-      - "8080:8080"
+      - "${APP_EXTERNAL_PORT}:${APP_INNER_PORT}"
     environment:
-      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=${DB_NAME};Username=${DB_USER};Password=${DB_PASSWORD}
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=${DB_INNER_PORT};Database=${DB_NAME};Username=${DB_USER};Password=${DB_PASSWORD}
     depends_on:
       postgres:
         condition: service_healthy
@@ -18,7 +18,7 @@ services:
     image: postgres:latest
     container_name: postgres_container
     ports:
-      - ${DB_PORT}:5432
+      - ${DB_EXTERNAL_PORT}:${DB_INNER_PORT}
     environment:
       - PGDATA=/data
       - POSTGRES_HOST_AUTH_METHOD=trust
