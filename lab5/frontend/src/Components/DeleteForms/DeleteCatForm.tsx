@@ -5,13 +5,12 @@ import { CatTable } from "../Tables/CatTable";
 import { Loader } from "../Loaders/Loader";
 
 export function DeleteCatForm() {
-
 	const [id, setId] = useState(0)
 	const [submited, setSubmited] = useState(false)
 	const [cat, setCat] = useState<ICat>({ id: 0, name: '', birthDate: '', color: '', breed: '', owner: { id: 0, name: '', birthDate: '' } })
 	const [isLoading, setLoading] = useState(false)
-
-	const sendCatData = async () => {
+                                        
+	const sendCatData = async () => {    
 		try {
 			setLoading(true)
 			const { data } = await deleteCat(id)

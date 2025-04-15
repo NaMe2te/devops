@@ -8,11 +8,12 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+// привет
 @Entity
 @Table(name = "cats")
 public class CatEntity {
 
-    @Id
+    @Id                                             
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "cat_id")
     @Getter
